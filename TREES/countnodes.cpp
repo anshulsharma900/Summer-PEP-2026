@@ -9,6 +9,8 @@ int countNodes(Node* root){
     return x + y + 1;
 }
 
+int countLeaf
+
 int main(){
     Node* root = new Node(1);
     root->left = new Node(2);
