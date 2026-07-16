@@ -21,4 +21,5 @@ void preorder(Node* root){
     preorder(root->left);
     preorder(root->right);
     
+    cout<<"Trees: "<<endl;
 }
