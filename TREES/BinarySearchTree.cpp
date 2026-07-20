@@ -1,4 +1,4 @@
-// BST : every node has atlost 2 children 
+// BST : every node has atleast 2 children 
 // For every child node, the left child is less than the parent node and the right child is greater than the parent node
 // This property is true for every node in the tree
 
