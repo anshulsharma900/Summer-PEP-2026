@@ -21,5 +21,14 @@ int main(){
         adjList[u].push_back(v);
         adjList[v].push_back(u);
     }
-    return 0;
+    cout<<"Adj list: "<<endl;
+
+    // print the adj list
+    for(auto i : adjList){
+        cout<<i.first<<"->";
+        for(auto j : i.second){
+            cout<<j<<",";
+        }
+        cout<<endl;
+    }
 }
