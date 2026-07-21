@@ -1,5 +1,6 @@
 #include<iostream>
 #include<list>
+#include<unordered_map>
 using namespace std;
 
 int main(){
@@ -15,7 +16,7 @@ int main(){
     unordered_map<int, list<int>> adjList;
     cout<<"Enter edges (u,v): "<<endl;
 
-    for(int i=0; i<n; i++){
+    for(int i=0; i<m; i++){
         int u, v;
         cin>>u>>v;
         adjList[u].push_back(v);
